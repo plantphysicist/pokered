@@ -11,7 +11,7 @@ MarowakAnim:
 	xor a
 	ldh [hAutoBGTransferEnabled], a ; disable BG transfer so we don't see the Marowak too soon
 ; replace ghost pic with Marowak in BG
-	ld a, GHOST_MON
+	ld a, RESTLESS_SOUL
 	ld [wChangeMonPicEnemyTurnSpecies], a
 	ld a, $1
 	ldh [hWhoseTurn], a
@@ -74,7 +74,7 @@ CopyMonPicFromBGToSpriteVRAM:
 	ld [hli], a
 	ld a, d
 	ld [hli], a
-	ld a, $10 ; use OBP1
+	ld a, OAM_OBP1
 	ld [hli], a
 	inc d
 	dec c

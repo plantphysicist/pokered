@@ -924,7 +924,7 @@ _UseNextMonText::
 	line "נוסף?"
 	done
 
-_Sony1WinText::
+_Rival1WinText::
 	text "<RIVAL>: כן! אני"
 	line "מדהים או מה?"
 	prompt
