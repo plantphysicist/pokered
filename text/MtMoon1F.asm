@@ -82,7 +82,7 @@ _MtMoon1BattleText7::
 	done
 
 _MtMoon1EndBattleText7::
-	text "עליתי"
+	text "עלית"
 	line "עלי!"
 	prompt
 
